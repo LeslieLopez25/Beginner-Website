@@ -42,7 +42,7 @@
 }
 
 .modal-content-left {
-    background: linear-gradient(90deg, rgba(247, 74, 70, 1) 100%);
+    background: linear-gradient(90deg, rgba(247, 74, 70, 1) 0%, rgba(236, 43, 0, 1) 100%);
     border-radius: 0 3px 3px 0;
     position: relative;
 }
@@ -125,7 +125,7 @@
 }
 
 .modal-input::placeholder {
-    color: var(--lightgrey);
+    color: var(--mediumgrey);
 }
 
 .modal-input-btn {
@@ -148,7 +148,7 @@
 .modal-input-login {
     font-size: 0.8rem;
     margin-top: 1rem;
-    color: var(--lightgrey);
+    color: var(--mediumgrey);
     width: 80%;
     text-align: center;
 }
