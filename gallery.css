@@ -1,9 +1,18 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .services-section {
     background-color: var(--darkgrey);
-    width: 100vw;
+    width: auto;
     height: auto;
     min-height: 100vh;
-    padding-bottom: 8rem;
+    padding-bottom: 11rem;
 }
 
 .services-heading {
@@ -33,7 +42,7 @@
     margin: 2px;
     position: relative;
     text-align: center;
-    z-index: 1;
+    z-index: -1;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     cursor: pointer;
@@ -52,11 +61,11 @@
     flex-direction: column;
     justify-content: center;
     text-transform: uppercase;
-    color: var(--white);
+    color: #C10000;
     font-weight: 700;
     font-size: 1rem;
     transition: opacity 350ms;
-    text-shadow: 2px 2px 2px var(--darkgrey);
+    text-shadow: 2px 2px 2px var(--darkgray);
 }
 
 .services-cell::before,
@@ -99,7 +108,7 @@
 }
 
 /* Responsive */
-@media screen and (min-width: 550px) and (max-width: 825px) {
+@media screen and (min-width: 550px) and (max-width: 899px) {
     .services-cell:nth-child(3n) {
         margin-right: calc(50% - 125px);
         margin-left: calc(50% - 125px);
@@ -122,12 +131,12 @@
     }
 
     .services-cell:nth-child(7) {
-        top: -280;
+        top: -280px;
         margin-right: 250px;
     }
 }
 
-@media screen and (min-width: 825px) and (max-width: 1100px) {
+@media screen and (min-width: 899px) and (max-width: 1300px) {
     .services-cell:nth-child(4) {
         top: -70px;
         margin-left: calc(50% - 275px);
@@ -150,7 +159,7 @@
     }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1300px) {
     .services-cell:nth-child(n + 5) {
         position: relative;
         top: -70px;
