@@ -1,5 +1,5 @@
 .main {
-  background-color: var(--darkgrey);
+  background-color: var(--vampire-black);
 }
 
 .main-container {
@@ -10,7 +10,7 @@
   width: 80%;
   margin: 0 auto;
   height: 90vh;
-  background-color: var(--darkgrey);
+  background-color: var(--vampire-black);
 }
 
 .main-content {
@@ -31,7 +31,7 @@
 
 .main-btn {
   font-size: 1rem;
-  background-color: var(--brightred);
+  background-color: var(--torch-red);
   padding: 8px 20px;
   border: none;
   border-radius: 4px;
@@ -89,7 +89,7 @@
     width: 90%;
     margin: 0 auto;
     height: 90vh;
-    background-color: var(--darkgrey);
+    background-color: var(--vampire-black);
   }
 
   .main-content {

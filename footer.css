@@ -1,12 +1,12 @@
 .footer-container {
-    background-color: var(--darkgrey);
+    background-color: var(--vampire-black);
     padding: 4rem 0 4rem 0;
 }
 
 .footer {
     width: 80%;
     height: 40vh;
-    background-color: var(--darkgrey);
+    background-color: var(--vampire-black);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -51,14 +51,14 @@
 }
 
 #footer-email::placeholder {
-    color: var(--mediumgrey);
+    color: var(--onyx);
 }
 
 #footer-email-btn {
     width: 100px;
     height: 40px;
     border-radius: 4px;
-    background-color: var(--brightred);
+    background-color: var(--torch-red);
     outline: none;
     border: none;
     color: #fff;

@@ -4,11 +4,11 @@
 @import url("footer.css");
 
 :root {
-    --darkgrey: #212329;
-    --mediumgrey: #444441;
-    --brightred: #f9423d;
-    --white: #fff;
-    --lightred: #f9433dcc;
+    --vampire-black: hsl(0, 0%, 3.1%);
+    --onyx: hsl(195, 3.6%, 21.6%);
+    --torch-red: hsl(341.9, 100%, 50%);
+    --white: hsl(0, 0%, 100%);
+    --carmin: hsl(348.1, 86.9%, 32.9%);
     --lightblue: #337af1;
 }
 
@@ -21,7 +21,7 @@
 
 .nav-container {
     width: 100%;
-    background-color: var(--darkgrey);
+    background-color: var(--vampire-black);
 }
 
 .navbar {
@@ -55,18 +55,18 @@
 }
 
 .nav-links {
-    color: white;
+    color: var(--white);
     text-decoration: none;
     font-weight: 600;
 }
 
 .nav-links:hover {
-    color: var(--brightred);
+    color: var(--torch-red);
     transition: all 0.2s ease-out;
 }
 
 .nav-links-btn {
-    background-color: var(--brightred);
+    background-color: var(--torch-red);
     padding: 6px 16px;
     border-radius: 4px;
 }
@@ -76,7 +76,7 @@
     color: var(--white);
     padding: 5px 15px;
     border-radius: 4px;
-    border: solid 1px var(--brightred);
+    border: solid 1px var(--torch-red);
     transition: all 0.3s ease-out;
 }
 
@@ -96,7 +96,7 @@
     .nav-menu {
         display: grid;
         grid-template-columns: auto;
-        background: var(--brightred);
+        background: var(--torch-red);
         margin: 0;
         width: 100%;
         position: absolute;
@@ -111,7 +111,7 @@
     }
 
     .nav-menu.active {
-        background: var(--darkgrey);
+        background: var(--vampire-black);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -125,7 +125,7 @@
     }
 
     .nav-links:hover {
-        background-color: var(--brightred);
+        background-color: var(--torch-red);
         color: var(--white);
         transition: all 0.4s ease-out;
     }
@@ -138,7 +138,7 @@
         border: none;
         padding: 0;
         border-radius: 0;
-        background-color: var(--darkgrey);
+        background-color: var(--vampire-black);
         color: var(--white);
         transition: all 0.4s ease-out;
     }
@@ -147,7 +147,7 @@
         border: none;
         padding: 0;
         border-radius: 0;
-        background-color: var(--brightred);
+        background-color: var(--torch-red);
         color: var(--white);
         transition: all 0.4s ease-out;
     }
