@@ -7,7 +7,7 @@
     width: 80%;
     height: 40vh;
     background-color: var(--vampire-black);
-    color: #fff;
+    color: var(--white);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -26,13 +26,13 @@
 }
 
 .footer-heading a {
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
 
 .footer-heading a:hover {
-    color: red;
+    color: var(--torch-red);
     transition: 0.3s ease-out;
 }
 
@@ -63,7 +63,7 @@
     background-color: var(--torch-red);
     outline: none;
     border: none;
-    color: #fff;
+    color: var(--white);
     font-size: 1rem;
 }
 

@@ -41,6 +41,8 @@
   position: relative;
   transition: all .35s;
   outline: none;
+  top: 25px;
+  text-decoration: none;
 }
 
 .main-btn a {
@@ -50,24 +52,10 @@
   text-decoration: none;
 }
 
-.main-btn:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  transition: all .35s;
-  border-radius: 4px;
-  background: var(--tyrian-purple);
-}
-
 .main-btn:hover {
   color: var(--white);
-}
-
-.main-btn:hover:after {
-  width: 100%;
+  background: var(--tyrian-purple);
+  border-radius: 4px;
 }
 
 #main-img {
