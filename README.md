@@ -6,7 +6,7 @@
 
 ### Link
 
-- Live Site: [Luxco Website]()
+- Live Site: [Luxco Website](https://leslielopez25.github.io/Beginner-Website/)
 
 ### Screenshot
 

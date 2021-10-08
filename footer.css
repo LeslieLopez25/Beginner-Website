@@ -20,8 +20,9 @@
     margin-right: 4rem;
 }
 
-.footer-heading h2 {
+.footer-heading h4 {
     margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 .footer-heading a {
@@ -35,8 +36,9 @@
     transition: 0.3s ease-out;
 }
 
-.footer-email-form h2 {
+.footer-email-form h5 {
     margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 #footer-email {
@@ -67,8 +69,14 @@
 
 #footer-email-btn:hover {
     cursor: pointer;
-    background-color: var(--lightblue);
+    background-color: var(--tyrian-purple);
     transition: all 0.4s ease-out;
+}
+
+small {
+    color: var(--white);
+    position: relative;
+    left: 600px;
 }
 
 @media screen and (max-width: 1200px) {

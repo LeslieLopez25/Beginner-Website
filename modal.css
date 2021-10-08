@@ -43,7 +43,8 @@
 }
 
 .modal-content-left {
-    background: linear-gradient(90deg, rgba(247, 74, 70, 1) 0%, rgba(236, 43, 0, 1) 100%);
+    background: linear-gradient(90deg, hsl(348.1, 86.9%, 32.9%) 0%,
+            hsl(332.9, 83.7%, 19.2%) 100%);
     border-radius: 0 3px 3px 0;
     position: relative;
 }
@@ -75,7 +76,7 @@
     align-items: center;
 }
 
-.modal-form h1 {
+.modal-form h2 {
     font-size: 1rem;
     text-align: start;
     width: 80%;
@@ -142,7 +143,7 @@
 
 .modal-input-btn:hover {
     cursor: pointer;
-    background-color: var(--lightblue);
+    background-color: var(--tyrian-purple);
     transition: all 0.4s ease-out;
 }
 
