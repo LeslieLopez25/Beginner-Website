@@ -2,7 +2,7 @@
 
 <h2>A website and responsive image gallery created using HTML, CSS, and JavaScript.</h2>
 
-<p>This project is created using a bit of flexbox and position property. I created this following the tutorial of Brain Design. I've changed the image and updated the values of measures from px to rem. This project was beginner friendly to create and to understand how to create a YouTube clone navbar sidebar menu.</p>
+<p>This project is created using flexbox, grid, and position property. I created this following the tutorial of Brain Design. I've changed the images, color scheme, and updated the values of measures from px to rem and em. This project was beginner friendly to create an image gallery, sidebar menu for mobile response, and creating a login form.</p>
 
 ### Link
 
@@ -10,4 +10,6 @@
 
 ### Screenshot
 
-<img src=".png" width="400">
+<img src="/screenshots/desktop.png" width="400">
+<img src="/screenshots/desktop-2.png" width="400">
+<img src="/screenshots/desktop-3.png" width="400">
