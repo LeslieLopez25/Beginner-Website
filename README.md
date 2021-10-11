@@ -1,4 +1,4 @@
-<h1>Beginner Website</h1>
+<h1>Luxco Website</h1>
 
 <h2>A website and responsive image gallery created using HTML, CSS, and JavaScript.</h2>
 
